@@ -1,0 +1,1235 @@
+/*
+    Topo da pagina
+
+
+@import"https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&display=swap";
+@import"https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap";
+@font-face {
+    font-family: "Jennerik";
+    src: url("fonts/JennerikBold.eot");
+    src: url("fonts/JennerikBold.eot?#iefix") format("embedded-opentype"), url("fonts/JennerikBold.woff2") format("woff2"), url("fonts/JennerikBold.woff") format("woff"), url("fonts/JennerikBold.ttf") format("truetype"), url("fonts/JennerikBold.svg#JennerikBold") format("svg");
+    font-weight: bold;
+    font-style: normal
+}*/
+
+a, a:hover, a:active {
+    color: inherit;
+    text-decoration: inherit
+}
+
+img {
+    max-width: 100%
+}
+
+@media only screen and (max-width: 991px) {
+    *[data-enllax-type=foreground] {
+        transform: none !important
+    }
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent
+}
+
+.slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0
+}
+
+.slick-list:focus {
+    outline: none
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand
+}
+
+.slick-slider .slick-track, .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0)
+}
+
+.slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.slick-track:before, .slick-track:after {
+    content: "";
+    display: table
+}
+
+.slick-track:after {
+    clear: both
+}
+
+.slick-loading .slick-track {
+    visibility: hidden
+}
+
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: none
+}
+
+[dir=rtl] .slick-slide {
+    float: right
+}
+
+.slick-slide img {
+    display: block
+}
+
+.slick-slide.slick-loading img {
+    display: none
+}
+
+.slick-slide.dragging img {
+    pointer-events: none
+}
+
+.slick-initialized .slick-slide {
+    display: block
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent
+}
+
+.slick-arrow.slick-hidden {
+    display: none
+}
+
+body {
+    background-color: #66728d;
+    color: #fff;
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 400;
+    width: 100%;
+    max-width: 100vw;
+    position: relative !important;
+    min-width: fit-content;
+    background-image: url(../img/bg.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat
+}
+
+body.obg {
+    background-color: #656f89;
+    background-image: url(../img/bg2.png)
+}
+
+body .margin {
+    margin-bottom: 50px !important
+}
+
+body .scroll {
+    overflow-x: hidden;
+    overflow-y: auto
+}
+
+body main section.logoendo {
+    padding: 50px 0px;
+    position: relative !important
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.logoendo {
+        text-align: center;
+        margin-bottom: 50px
+    }
+}
+
+body main section.logoendo h2 {
+    font-family: "Jennerik";
+    font-weight: 700;
+    margin-bottom: 0px;
+    font-size: 36px;
+    color: #2c323e;
+    text-transform: uppercase
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.logoendo h2 {
+        margin-bottom: 30px
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.logoendo .logo {
+        margin-bottom: 30px
+    }
+}
+
+body main section.logoendo h3 {
+    font-family: "Jennerik";
+    font-weight: 700;
+    margin-bottom: 0px;
+    font-size: 22px;
+    color: #fbcf30;
+    margin-bottom: 10px
+}
+
+body main section.logoendo .logof {
+    max-width: 150px
+}
+
+body main section.logo {
+    padding: 50px 0px;
+    position: relative !important;
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.logo {
+        text-align: center
+    }
+}
+
+body main section.logo h2 {
+    font-family: "Jennerik";
+    font-weight: 700;
+    margin-bottom: 0px;
+    font-size: 36px;
+    color: #2c323e;
+    text-transform: uppercase
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.logo h2 {
+        margin-bottom: 30px
+    }
+}
+
+body main section.logo .logo {
+    max-width: 255px
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.logo .logo {
+        margin-bottom: 30px
+    }
+}
+
+body main section.logo h3 {
+    font-family: "Jennerik";
+    font-weight: 700;
+    margin-bottom: 0px;
+    font-size: 22px;
+    color: #fbcf30;
+    margin-bottom: 10px
+}
+
+body main section.logo .logof {
+    max-width: 150px
+}
+
+body main section.obrigado {
+    font-family: "Ibarra Real Nova", serif
+}
+
+body main section.obrigado .texto h2 {
+    font-family: "Ibarra Real Nova", serif;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #fbcf30;
+    line-height: 27px;
+    text-align: center
+}
+
+body main section.obrigado .texto h2 strong {
+    font-size: 22px
+}
+
+body main section.obrigado .texto ol {
+    text-align: justify;
+    padding: 0px;
+    list-style-position: outside;
+    padding-left: 18px;
+    margin: 50px 0px
+}
+
+body main section.obrigado .texto ol a:hover {
+    text-decoration: underline
+}
+
+body main section.obrigado .texto p {
+    font-size: 16px;
+    text-align: center
+}
+
+body main section.obrigado .texto p strong {
+    color: #fbcf30;
+    font-weight: 400
+}
+
+body main section.obrigado .texto p a {
+    color: #fbcf30;
+    font-weight: 400
+}
+
+body main section.obrigado .texto p a:hover {
+    text-decoration: underline
+}
+
+body main section.obrigado .texto p.amarelo {
+    color: #fbcf30
+}
+
+body main section.obrigado .texto p.rosa {
+    color: #e16c75
+}
+
+body main section.obrigado .texto p.rosa a {
+    color: #fff
+}
+
+body main section.linha {
+    position: relative
+}
+
+body main section.linha .linha {
+    max-width: 250px;
+    margin-bottom: 50px;
+    position: relative !important
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.linha .linha {
+        transform: translateX(-50%)
+    }
+}
+
+body main section.linha .flor {
+    position: absolute;
+    max-width: 170px;
+    right: 0px !important;
+    left: inherit !important;
+    bottom: 0px
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.linha .flor {
+        width: 50px;
+        bottom: 360px
+    }
+}
+
+body main section.linha .lua {
+    position: absolute;
+    max-width: 150px;
+    right: 0px;
+    left: inherit !important;
+    bottom: 0px
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.linha .lua {
+        display: none
+    }
+}
+
+body main section.titulo {
+    position: relative;
+    background-image: url(../img/onda.png);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: center bottom -2px
+}
+
+@media only screen and (min-width: 992px) {
+    body main section.titulo .mobile {
+        display: none
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.titulo .desktop {
+        display: none
+    }
+}
+
+body main section.titulo .dra {
+    margin-bottom: 50px;
+    position: relative !important
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.titulo .dra {
+        max-width: 300px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px
+    }
+}
+
+body main section.titulo h2 {
+    color: #ef6e79;
+    font-family: "Jennerik"
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.titulo h2 {
+        text-align: center
+    }
+}
+
+body main section.form {
+    font-family: "Ibarra Real Nova", serif;
+    padding-bottom: 100px;
+    position: relative
+}
+
+body main section.form * {
+    outline: none
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.form {
+        max-width: 100vw
+    }
+}
+
+body main section.form .seta {
+    display: none;
+    width: 50%;
+    margin-top: 20px
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.form .seta {
+        display: inline-block
+    }
+}
+
+body main section.form .seta.next {
+    text-align: right
+}
+
+body main section.form .mauticform-row {
+    padding: 10px;
+    margin: -10px;
+    background-color: rgba(0, 0, 0, 0);
+    transition: .4s;
+    border-radius: 10px;
+    margin-bottom: 40px
+}
+
+body main section.form #sliderMobile .mauticform-row#mauticform_encontrospesquisa_submit {
+    margin-bottom: 0px
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.form #sliderMobile .mauticform-row {
+        margin: 0px;
+        padding: 30px;
+        background-color: rgba(44, 50, 62, .3)
+    }
+}
+
+body main section.form .mauticform-has-error {
+    background-color: rgba(255, 0, 0, .2) !important
+}
+
+body main section.form .mauticform-has-error .mauticform-errormsg {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, .75);
+    padding: 5px;
+    font-size: 14px
+}
+
+body main section.form h2 {
+    font-weight: 400;
+    line-height: .9em;
+    font-size: 42px;
+    color: #000;
+    margin-bottom: 50px;
+    font-family: "Jennerik"
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.form h2 {
+        text-align: center;
+        font-size: 36px
+    }
+}
+
+body main section.form h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.form h3.amarelo {
+        font-size: 24px;
+        text-align: center;
+        display: block
+    }
+}
+
+body main section.form h3.amarelo, body main section.form h3 strong {
+    color: #fbcf30
+}
+
+body main section.form h3.inline {
+    display: inline-block
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.form h3.inline {
+        display: block
+    }
+}
+
+body main section.form h4 {
+    font-size: 14px;
+    color: #fbcf30;
+    margin-bottom: 10px
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.form h4 {
+        text-align: center
+    }
+}
+
+body main section.form input[type=text], body main section.form input[type=email] {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 1px solid #fbcf30;
+    outline: none;
+    color: #fff
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.form input[type=text], body main section.form input[type=email] {
+        text-align: center
+    }
+}
+
+body main section.form input[type=text]::placeholder, body main section.form input[type=email]::placeholder {
+    color: rgba(251, 207, 48, .4)
+}
+
+body main section.form input[type=text]:-ms-input-placeholder, body main section.form input[type=email]:-ms-input-placeholder {
+    color: rgba(251, 207, 48, .4)
+}
+
+body main section.form input[type=text]::-ms-input-placeholder, body main section.form input[type=email]::-ms-input-placeholder {
+    color: rgba(251, 207, 48, .4)
+}
+
+body main section.form input[type=radio], body main section.form input[type=checkbox] {
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-appearance: none;
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    outline: none;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    vertical-align: -3px;
+    margin-right: 5px
+}
+
+body main section.form input[type=radio]:before, body main section.form input[type=checkbox]:before {
+    border-radius: 50px;
+    content: "";
+    border: 1px solid #fff;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    display: block
+}
+
+body main section.form input[type=radio]:after, body main section.form input[type=checkbox]:after {
+    border-radius: 50px;
+    content: "";
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 4px;
+    top: 4px;
+    display: block;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s
+}
+
+body main section.form input[type=radio]:checked:after, body main section.form input[type=checkbox]:checked:after {
+    background-color: #fbcf30
+}
+
+body main section.form input#mauticform_input_encontrospesquisa_data_de_nascimento1 {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 1px solid #fbcf30;
+    outline: none;
+    color: #fff;
+    margin-left: 10px;
+    color: #fbcf30;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    width: auto;
+    transition: .4s
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.form input#mauticform_input_encontrospesquisa_data_de_nascimento1 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0px;
+        margin-left: 0px
+    }
+}
+
+body main section.form input#mauticform_input_encontrospesquisa_data_de_nascimento1:focus {
+    color: #fff
+}
+
+body main section.form textarea {
+    background-image: url(../img/linhas.png);
+    background-position: center;
+    background-size: 100% 90px;
+    line-height: 32px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    height: 90px;
+    color: #fff;
+    resize: none
+}
+
+body main section.form button {
+    background-color: #fbcf30;
+    color: #000;
+    border-radius: 50px;
+    padding: 5px 16px;
+    outline: none
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.form button {
+        width: 100%
+    }
+}
+
+body main section.form button:hover {
+    color: #fbcf30;
+    background-color: #000
+}
+
+body main section.form label.mauticform-radiogrp-label, body main section.form label.mauticform-checkboxgrp-label {
+    font-size: 14px
+}
+
+body main section.footer-alt {
+    padding: 50px 0px
+}
+
+body main section.footer-alt, body main section.footer {
+    background-color: #2c323e;
+    font-family: "Ibarra Real Nova", serif;
+    padding-bottom: 50px
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.footer-alt, body main section.footer {
+        text-align: center
+    }
+}
+
+body main section.footer-alt h2, body main section.footer h2 {
+    font-size: 28px
+}
+
+body main section.footer-alt h3, body main section.footer h3 {
+    font-size: 20px
+}
+
+body main section.footer-alt p, body main section.footer p {
+    color: #fbcf30
+}
+
+body main section.footer-alt span, body main section.footer span {
+    display: block;
+    text-align: center;
+    font-family: "Jennerik"
+}
+
+body main section.footer-alt span a, body main section.footer span a {
+    color: #fbcf30
+}
+
+body main section.footer-alt span a:hover, body main section.footer span a:hover {
+    text-decoration: underline
+}
+
+body main section.footer-alt ul, body main section.footer ul {
+    list-style-position: outside;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    margin-bottom: 50px;
+    padding-left: 18px
+}
+
+body main section.footer-alt ul li, body main section.footer ul li {
+    font-size: 16px
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.footer-alt ul li, body main section.footer ul li {
+        text-align: justify
+    }
+}
+
+body main section.footer-alt ul li:not(:last-child), body main section.footer ul li:not(:last-child) {
+    margin-bottom: 10px
+}
+
+body main section.footer-alt img, body main section.footer img {
+    display: block;
+    margin: 0 auto
+}
+
+body main section.textoendo {
+    margin-bottom: 50px
+}
+
+body main section.textoendo h2 {
+    font-family: "Ibarra Real Nova", serif;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 1px
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.textoendo h2 {
+        text-align: center
+    }
+}
+
+body main section.textoendo h2 strong {
+    color: #ef6e79;
+    font-weight: 400
+}
+
+body main section.textoendo .ramo {
+    position: relative !important;
+    float: right;
+    shape-outside: url(../img/ramo.png);
+    clip-path: url(../img/ramo.png);
+    shape-margin: 20px;
+    width: 120px;
+    margin: 20px;
+    -webkit-transform: translateX(30%);
+    -moz-transform: translateX(30%);
+    -ms-transform: translateX(30%);
+    -o-transform: translateX(30%);
+    transform: translateX(30%)
+}
+
+@media only screen and (max-width: 767px) {
+    body main section.textoendo .ramo {
+        -webkit-transform: inherit;
+        -moz-transform: inherit;
+        -ms-transform: inherit;
+        -o-transform: inherit;
+        position: relative !important;
+        float: right;
+        display: block;
+        width: 50px;
+        left: inherit !important;
+        top: 0px;
+        right: 0px !important;
+        margin: 0px
+    }
+}
+
+body main section.textoendo .lua {
+    position: relative !important;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px
+}
+
+@media only screen and (max-width: 767px) {
+    body main section.textoendo .lua {
+        position: relative !important;
+        float: left;
+        display: block;
+        width: 50px;
+        top: 0px;
+        left: 0px !important;
+        margin: 0px;
+        z-index: -1;
+        shape-outside: url(../img/lua.png);
+        clip-path: url(../img/lua.png);
+        shape-margin: 20px
+    }
+}
+
+body main section.textoendo button {
+    background-color: #fbcf30;
+    color: #000;
+    font-family: "Ibarra Real Nova", serif;
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    margin-bottom: 50px;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    padding: 20px;
+    width: 100%
+}
+
+body main section.textoendo button br {
+    display: none
+}
+
+@media only screen and (max-width: 767px) {
+    body main section.textoendo button br {
+        display: inline
+    }
+}
+
+body main section.textoendo button span {
+    display: inline-block
+}
+
+@media only screen and (max-width: 767px) {
+    body main section.textoendo button span {
+        font-size: 14px
+    }
+}
+
+body main section.textoendo button span span {
+    display: inline
+}
+
+@media only screen and (max-width: 767px) {
+    body main section.textoendo button span span {
+        display: none
+    }
+}
+
+body main section.textoendo button img {
+    display: inline-block;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s
+}
+
+body main section.textoendo button img.toque {
+    margin-right: 25px;
+    vertical-align: -7px;
+    max-width: 32px;
+    filter: brightness(0%)
+}
+
+@media only screen and (min-width: 767px)and (max-width: 767px) {
+    body main section.textoendo button img.toque {
+        margin-right: 20px;
+        vertical-align: 10%;
+        max-width: 32px
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    body main section.textoendo button img.toque {
+        margin-right: 10px;
+        vertical-align: 10%;
+        max-width: 24px
+    }
+}
+
+body main section.textoendo button img.telegram {
+    margin-left: 25px;
+    vertical-align: -10px;
+    max-width: 32px;
+    filter: brightness(0%)
+}
+
+@media only screen and (min-width: 767px)and (max-width: 767px) {
+    body main section.textoendo button img.telegram {
+        margin-left: 20px;
+        vertical-align: 10%;
+        max-width: 32px
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    body main section.textoendo button img.telegram {
+        margin-left: 10px;
+        vertical-align: 10%;
+        max-width: 24px
+    }
+}
+
+body main section.textoendo button:hover {
+    color: #fbcf30;
+    background-color: #000
+}
+
+body main section.textoendo button:hover img.toque, body main section.textoendo button:hover img.telegram {
+    filter: inherit
+}
+
+body main section.textoendo .mockup {
+    margin-top: 75px
+}
+
+body main section.textoendo .mockup .col-12.col-md-4 {
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s
+}
+
+body main section.textoendo .mockup .col-12.col-md-4:hover {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.025)
+}
+
+body main section.textoendo .mockup img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto
+}
+
+body main section.textoendo .mockup p {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 16px
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.textoendo .mockup p {
+        margin-bottom: 50px
+    }
+    body main section.textoendo .mockup p br {
+        display: none
+    }
+}
+
+body main section.textoendo .mockup p strong {
+    font-weight: inherit;
+    color: #fbcf30;
+    font-size: 22px;
+    display: block
+}
+
+body main section.textoendo p {
+    color: #fff;
+    font-family: "Ibarra Real Nova", serif;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 30px
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.textoendo p {
+        text-align: center
+    }
+}
+
+body main section.textoendo p.amarelo {
+    font-size: 28px;
+    font-family: "Jennerik";
+    color: #fbcf30;
+    margin-bottom: 50px
+}
+
+body main section.textoendo p.amarelo em {
+    font-style: normal;
+    color: #fff;
+    font-size: 22px
+}
+
+body main section.textoendo p.small {
+    font-size: .8em;
+    margin-top: -40px
+}
+
+body main section.textoendo p strong {
+    font-weight: 700
+}
+
+body main section.textoendo p em {
+    font-size: 1.2em;
+    color: #fff;
+    font-style: normal
+}
+
+body main section.textoendo ul {
+    font-family: "Jennerik";
+    color: #fff;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 30px
+}
+
+body main section.textoendo ul li {
+    color: #000;
+    font-size: 14px
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.textoendo ul li {
+        text-align: center
+    }
+}
+
+body main section.textoendo ul li:not(:last-child) {
+    margin-bottom: 10px
+}
+
+body main section.textoendo ul li strong {
+    font-size: 18px;
+    color: #ef6e79;
+    font-weight: 700
+}
+
+body main section.textoendo ul li strong:after {
+    content: " | "
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.textoendo ul li strong {
+        display: block
+    }
+    body main section.textoendo ul li strong:after {
+        content: inherit;
+        display: none
+    }
+}
+
+body main section.texto {
+    margin-bottom: 50px
+}
+
+body main section.texto h2 {
+    font-family: "Ibarra Real Nova", serif;
+    font-size: 20px;
+    text-align: justify;
+    letter-spacing: 1px
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.texto h2 {
+        text-align: center
+    }
+}
+
+body main section.texto h2 strong {
+    color: #ef6e79;
+    font-weight: 400
+}
+
+body main section.texto .ramo {
+    position: relative !important;
+    float: right;
+    shape-outside: url(../img/ramo.png);
+    clip-path: url(../img/ramo.png);
+    shape-margin: 20px;
+    width: 120px;
+    margin: 20px;
+    -webkit-transform: translateX(30%);
+    -moz-transform: translateX(30%);
+    -ms-transform: translateX(30%);
+    -o-transform: translateX(30%);
+    transform: translateX(30%)
+}
+
+@media only screen and (max-width: 767px) {
+    body main section.texto .ramo {
+        -webkit-transform: inherit;
+        -moz-transform: inherit;
+        -ms-transform: inherit;
+        -o-transform: inherit;
+        position: relative !important;
+        float: right;
+        display: block;
+        width: 50px;
+        left: inherit !important;
+        top: 0px;
+        right: 0px !important;
+        margin: 0px
+    }
+}
+
+body main section.texto .lua {
+    position: relative !important;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px
+}
+
+@media only screen and (max-width: 767px) {
+    body main section.texto .lua {
+        position: relative !important;
+        float: left;
+        display: block;
+        width: 50px;
+        top: 0px;
+        left: 0px !important;
+        margin: 0px;
+        z-index: -1;
+        shape-outside: url(../img/lua.png);
+        clip-path: url(../img/lua.png);
+        shape-margin: 20px
+    }
+}
+
+body main section.texto p {
+    color: #fbcf30;
+    font-family: "Ibarra Real Nova", serif;
+    font-weight: 400;
+    text-align: justify
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.texto p {
+        text-align: center
+    }
+}
+
+body main section.texto p.rosa {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #ef6e79;
+    font-weight: 700;
+    margin-bottom: 50px
+}
+
+body main section.texto p.branco {
+    font-family: "Jennerik";
+    color: #fff;
+    font-size: 18px
+}
+
+body main section.texto p.branco em {
+    color: #fbcf30
+}
+
+body main section.texto p strong {
+    font-weight: 700
+}
+
+body main section.texto p em {
+    font-size: 1.2em;
+    color: #fff;
+    font-style: normal
+}
+
+body main section.texto ul {
+    font-family: "Jennerik";
+    color: #fff;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 30px
+}
+
+body main section.texto ul li {
+    color: #000;
+    font-size: 14px
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.texto ul li {
+        text-align: center
+    }
+}
+
+body main section.texto ul li:not(:last-child) {
+    margin-bottom: 10px
+}
+
+body main section.texto ul li strong {
+    font-size: 18px;
+    color: #ef6e79;
+    font-weight: 700
+}
+
+body main section.texto ul li strong:after {
+    content: " | "
+}
+
+@media only screen and (max-width: 991px) {
+    body main section.texto ul li strong {
+        display: block
+    }
+    body main section.texto ul li strong:after {
+        content: inherit;
+        display: none
+    }
+}
+
+/*# sourceMappingURL=style.css.map */
+
