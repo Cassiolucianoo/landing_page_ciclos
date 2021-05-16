@@ -1,15 +1,5 @@
 /*
-    Topo da pagina
-
-
-@import"https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&display=swap";
-@import"https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap";
-@font-face {
-    font-family: "Jennerik";
-    src: url("fonts/JennerikBold.eot");
-    src: url("fonts/JennerikBold.eot?#iefix") format("embedded-opentype"), url("fonts/JennerikBold.woff2") format("woff2"), url("fonts/JennerikBold.woff") format("woff"), url("fonts/JennerikBold.ttf") format("truetype"), url("fonts/JennerikBold.svg#JennerikBold") format("svg");
-    font-weight: bold;
-    font-style: normal
+    Estrutura css
 }*/
 
 a, a:hover, a:active {
@@ -145,8 +135,8 @@ body {
 }
 
 body.obg {
-    background-color: #656f89;
-    background-image: url(../img/bg2.png)
+     background-color: #656f89;
+    background-image: url(../img/background2.png);
 }
 
 body .margin {
@@ -527,49 +517,8 @@ body main section.form h4 {
     }
 }
 
-body main section.form input[type=text], body main section.form input[type=email] {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0);
-    border: none;
-    border-bottom: 1px solid #fbcf30;
-    outline: none;
-    color: #fff
-}
 
-@media only screen and (max-width: 991px) {
-    body main section.form input[type=text], body main section.form input[type=email] {
-        text-align: center
-    }
-}
 
-body main section.form input[type=text]::placeholder, body main section.form input[type=email]::placeholder {
-    color: rgba(251, 207, 48, .4)
-}
-
-body main section.form input[type=text]:-ms-input-placeholder, body main section.form input[type=email]:-ms-input-placeholder {
-    color: rgba(251, 207, 48, .4)
-}
-
-body main section.form input[type=text]::-ms-input-placeholder, body main section.form input[type=email]::-ms-input-placeholder {
-    color: rgba(251, 207, 48, .4)
-}
-
-body main section.form input[type=radio], body main section.form input[type=checkbox] {
-    background-color: rgba(0, 0, 0, 0);
-    -webkit-appearance: none;
-    display: inline-block;
-    position: relative;
-    width: 16px;
-    height: 16px;
-    outline: none;
-    -webkit-transition: .4s;
-    -moz-transition: .4s;
-    -ms-transition: .4s;
-    -o-transition: .4s;
-    transition: .4s;
-    vertical-align: -3px;
-    margin-right: 5px
-}
 
 body main section.form input[type=radio]:before, body main section.form input[type=checkbox]:before {
     border-radius: 50px;
@@ -1233,3 +1182,63 @@ body main section.texto ul li strong:after {
 
 /*# sourceMappingURL=style.css.map */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+    body main section.form input[type=text], body main section.form input[type=email] {
+        text-align: center
+    }
+}
+
+body main section.form input[type=text]::placeholder, body main section.form input[type=email]::placeholder {
+    color: rgba(251, 207, 48, .4)
+}
+
+body main section.form input[type=text]:-ms-input-placeholder, body main section.form input[type=email]:-ms-input-placeholder {
+    color: rgba(251, 207, 48, .4)
+}
+
+body main section.form input[type=text]::-ms-input-placeholder, body main section.form input[type=email]::-ms-input-placeholder {
+    color: rgba(251, 207, 48, .4)
+}
+
+body main section.form input[type=radio], body main section.form input[type=checkbox] {
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-appearance: none;
+    display: inline-block;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    outline: none;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    vertical-align: -3px;
+    margin-right: 5px
+}
+body main section.form input[type=text], body main section.form input[type=email] {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: 1px solid #fbcf30;
+    outline: none;
+    color: #fff
+}

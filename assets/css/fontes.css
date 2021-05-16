@@ -1,0 +1,14 @@
+@import"https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;700&display=swap";
+@import"https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap";
+
+
+@font-face {
+    font-family: "Jennerik";
+    src: url('../fonts/jennerikbold.woff2') format('woff2'),
+         url('../fonts/jennerik_bold-webfont.woff') format('woff'),
+         url('../fonts/jennerik_bold-webfont.svg#jennerikbold') format('svg');
+   
+    font-weight: 700;
+    font-style: normal
+
+}
