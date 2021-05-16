@@ -750,21 +750,7 @@ body main section.textoendo .lua {
     margin-bottom: 20px
 }
 
-@media only screen and (max-width: 767px) {
-    body main section.textoendo .lua {
-        position: relative !important;
-        float: left;
-        display: block;
-        width: 50px;
-        top: 0px;
-        left: 0px !important;
-        margin: 0px;
-        z-index: -1;
-        shape-outside: url(../img/lua.png);
-        clip-path: url(../img/lua.png);
-        shape-margin: 20px
-    }
-}
+
 
 body main section.textoendo button {
     background-color: #fbcf30;
@@ -1079,21 +1065,7 @@ body main section.texto .lua {
     margin-bottom: 20px
 }
 
-@media only screen and (max-width: 767px) {
-    body main section.texto .lua {
-        position: relative !important;
-        float: left;
-        display: block;
-        width: 50px;
-        top: 0px;
-        left: 0px !important;
-        margin: 0px;
-        z-index: -1;
-        shape-outside: url(../img/lua.png);
-        clip-path: url(../img/lua.png);
-        shape-margin: 20px
-    }
-}
+
 
 body main section.texto p {
     color: #fbcf30;
