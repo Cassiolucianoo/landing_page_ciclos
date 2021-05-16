@@ -148,6 +148,7 @@ body .scroll {
     overflow-y: auto
 }
 
+
 body main section.logoendo {
     padding: 50px 0px;
     position: relative !important
@@ -610,8 +611,8 @@ body main section.form button {
 }
 
 body main section.form button:hover {
-    color: #fbcf30;
-    background-color: #000
+    color: #000;
+    background-color:  #88711c;
 }
 
 body main section.form label.mauticform-radiogrp-label, body main section.form label.mauticform-checkboxgrp-label {
@@ -643,7 +644,8 @@ body main section.footer-alt h3, body main section.footer h3 {
 }
 
 body main section.footer-alt p, body main section.footer p {
-    color: #fbcf30
+    color: #fbcf30;
+    text-align: justify;
 }
 
 body main section.footer-alt span, body main section.footer span {
@@ -857,10 +859,7 @@ body main section.textoendo button img.telegram {
     }
 }
 
-body main section.textoendo button:hover {
-    color: #fbcf30;
-    background-color: #000
-}
+
 
 body main section.textoendo button:hover img.toque, body main section.textoendo button:hover img.telegram {
     filter: inherit
@@ -1095,7 +1094,8 @@ body main section.texto p.branco {
 }
 
 body main section.texto p.branco em {
-    color: #fbcf30
+    color: #fbcf30;
+   
 }
 
 body main section.texto p strong {
